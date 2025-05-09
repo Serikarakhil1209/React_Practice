@@ -1,9 +1,0 @@
-#nav{
-    background-color: yellow;
-    display: flex;
-    justify-content: space-between;
-}
-#right-div{
-    display: flex;
-    gap: 20px;
-}
