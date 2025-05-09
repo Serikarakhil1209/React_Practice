@@ -1,0 +1,206 @@
+react question 
+
+1) what is react?
+
+react is js library which mainly used to build rich user interface with component based architecture
+
+2) why react so popular? 
+
+it is used create SPAs
+fast and efficient (virtual Dom)
+it is having comp based architecture
+reusability of a comp
+jsx
+on way data flow 
+
+3) what are  features of react ?
+
+it is having components based architecture
+jsx
+virtual dom
+one way data flow 
+spas
+state management(hooks)
+
+4) what is component and write example?
+
+component is nothing but js function which returns jsx
+
+function APP(){
+return (
+<div></div>
+) }
+export default app
+
+
+5) JSX ?
+
+jsx is html like structure which is mandatiroly should have one single parent 
+
+
+return(
+
+<> </> )
+
+6) rules of jsx ?
+
+must have single parent 
+all tags in jsx should be closed
+to use js in jsx we have to use {}
+attributes ( className )r css property must be written as camelCase
+style attribute should have {{}} for using property: value 
+
+7) how many type of components ?
+
+two types
+
+functional components --> function
+class components --- > class key word 
+
+8) what is one way data flow in react how can we do it ?
+
+we can send the data in a single chain flow like parent comp - > child - > subchild -> grand
+
+we cam do using props concept in react
+
+9)what are props in react ?
+
+prosp are data carriers we can send the data from comp to another comp parent - > child 
+
+10) types of props ? example 
+
+general props
+child props
+
+
+general props -- >
+
+<child propname={data}/> usage
+
+child props --> <child> {data} <child/>
+
+11) what is list rendering react ?
+
+rendering the array to ui by mapping it 
+
+eample -- > rendering products data which is array of object data can be related to any data exp--> products,movie
+
+12) what is condition rendering in react >
+
+we render the comp based on the condition
+
+ex- based on the role of the user , i can display admin dashboard r user dash board
+
+13) how can you do routing in react ? and what r  the comps in router dom ?
+
+i can to do routing with react router dom is third party package and i need to install it my react app with a command npm i react-roter-dom
+
+<BrowserRoute />
+<Routes />
+<Route />
+<Link />
+UseParams()
+
+
+14) explain the comp routing in detail?
+
+<BrowserRoute /> it will enable routing to entire the react
+<Routes /> it is comp wrap all single routes
+<Route /> it is used to define the path and syncable comp of a particular routes and attributes are path ="" and element = " "
+<link>  we use this link as tag and we have to provide "to" attribute which contain path of comp 
+use params()  it is a method and which is used to get params from the route 
+
+
+15) explain the folder structer of vite react app ?
+
+node -v --> to cheack the version of node in system
+
+npm i -- > to cheack npm'
+
+npm create vite@latest react_app_name( no capital,no single capital , no starting digit )
+
+cd react_app(name)
+
+npm i (all necessary packages to run the react application )
+
+npm run dev 
+
+16) what is root file in entire react vite app ?
+
+index .html
+
+17) what is the main file or entry point of the react app ?
+
+main.jsx
+
+18) what is main comp in react ?
+
+app.jsx
+
+19) what is the src fold in react ?
+
+which is main folder where our entire code is present 
+
+20)  what is the user of .gitignore file ?
+
+to ignore file which are not be commited
+
+21) what is the purpose of package.json ?
+all info about packages ,react app name, version , and script and dependencies {}
+
+22 ) what is use of package lock.json ?
+
+version manager in all team 
+
+23 ) what is vite.config.jsx
+configuration for vite react app 
+
+port change 
+
+add plugins :- tailwindcss :- react 
+
+24 ) what are the export and import in react and type ?
+
+export - > used to export the comp 
+
+import - > used to import comp 
+
+1) default 
+2) named 
+
+25) types of styling css ?
+
+1. inline 
+2. external 
+3. js object kind styling 
+
+26) what are fragments ? 
+fragments are nothing but empty and closing tags 
+<></>  or <React.fragment> </React.fragment>
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
